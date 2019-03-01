@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .hero {
+    background-image: url("assets/header_visual.jpg");
+    background-repeat: no-repeat;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-link {
+    color: white;
+    margin: 10px;
+  }
+  
+  .nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding-inline-start: 0;
+  }
